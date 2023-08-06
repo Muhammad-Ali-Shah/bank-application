@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.bank_app.WelcomeController">
+
+    <padding>
+        <Insets top="10" left="10" right="10" bottom="10"/>
+    </padding>
+    <VBox alignment="CENTER">
+        <Label text="Welcome to MAS Bank"/>
+        <Label text="Select an option"/>
+    </VBox>
+
+    <VBox alignment="CENTER" spacing="3">
+        <Button text="Create a bank account" onAction="#onCreateBankAccountButtonClick"/>
+        <Button text="Sign in" onAction="#onSignInButtonClick"/>
+    </VBox>
+
+</VBox>

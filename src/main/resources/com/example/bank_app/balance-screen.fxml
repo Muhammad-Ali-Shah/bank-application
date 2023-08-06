@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      fx:controller="com.example.bank_app.BalanceController" onMouseEntered="#setBalance">
+    <Label alignment="CENTER" text="Total balance:" />
+    <Label text="Move mouse" fx:id="balance">
+      <font>
+         <Font size="18.0" />
+      </font>
+    </Label>
+    <Button text="Complete a transaction" onAction="#toTransactionScreen"/>
+</VBox>

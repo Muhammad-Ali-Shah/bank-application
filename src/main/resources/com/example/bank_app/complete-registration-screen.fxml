@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.bank_app.CompleteRegistrationController" onMouseEntered="#fillDetails">
+    <Label text="Here are your account details"/>
+    <Label fx:id="firstNameLabel"/>
+    <Label fx:id="surnameLabel"/>
+    <Label fx:id="dobLabel"/>
+    <Label fx:id="sortCodeLabel"/>
+    <Label fx:id="accountNumberLabel"/>
+    <VBox alignment="CENTER">
+        <Button text="Continue to account" alignment="CENTER" onAction="#onButtonClick"/>
+    </VBox>
+</VBox>
