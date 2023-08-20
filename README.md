@@ -18,6 +18,7 @@ concurrent execution of server tasks.
 * Run Server.kt file in background
 * Change credentials in bank_app\Data.kt file
 * Run BankApp.kt file
+* To add money, transfer money from the master bank account
 
 ## Sample credentials
 ### Master account 
