@@ -9,6 +9,16 @@ encrypted format that cannot be decoded without the key. User records are stored
 **Java database connectivity** to access the database. **Kotlinx coroutines** were also used for
 concurrent execution of server tasks.
 
+## Setup
+* Import repository to IDE of choice (IntelliJ recommended)
+* Set up PostgreSQL shell. Visit www.postgresql.org if not already downloaded.
+* Run bank.sql file to set up bank database, including records table
+* Import records.csv file to records table to populate records table (**IMPORTANT - No transactions will work otherwise**)
+* Change credentials in bank_server\Data.kt file
+* Run Server.kt file in background
+* Change credentials in bank_app\Data.kt file
+* Run BankApp.kt file
+
 ## Sample credentials
 ### Master account 
 This account holds **1,000,000,000** currency  
