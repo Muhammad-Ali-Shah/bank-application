@@ -20,10 +20,10 @@ fun main() = runBlocking {
             serverSocket.accept()
         }
         println("SERVER: Request received. Initialising request handler coroutine.")
-        launch {
-            val requestHandler = ServiceCoroutine(request)
-            requestHandler.start()
-        }
+        //launch {
+        val requestHandler = ServiceCoroutine(request)
+        requestHandler.start()
+        //}
         println("SERVER: Finished loop")
     }
 }
