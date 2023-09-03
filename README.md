@@ -7,7 +7,7 @@ data between the client and the server and **AES symmetric encryption** to store
 encrypted format that cannot be decoded without the key. User records are stored in a 
 **PostgreSQL** database. This project was coded in **Kotlin** using **JavaFX** for the GUI and 
 **Java database connectivity** to access the database. **Kotlinx coroutines** were also used for
-concurrent execution of server tasks (this is not working as of now).
+concurrent execution of server tasks \(this is not working as of now).
 
 ## Setup
 * Import repository to IDE of choice (IntelliJ recommended)
